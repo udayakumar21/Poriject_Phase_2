@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Files</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="Navigation-with-Search.css">
+  <link rel="stylesheet" href="album.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="upload.css">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+    <div class="container"><a class="navbar-brand" href="index.html">Document</a><button class="navbar-toggler"
+        data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle
+          navigation</span><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <ul class="nav navbar-nav">
+          <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Files Uploaded</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="upload-btn-wrapper">
+        <button type="button" class="btn btn-outline-info align-items-center">+ Add Document</button>
+        <input type="file" name="myfile" />
+      </div>
+      <br />
+      <br />
+      <h1>Basic <Details></Details>
+      </h1>
+      <form action="#" class="form">
+        <label for="email"></label>
+        <br>
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="email" placeholder="Full Name*(as  per aadhaar)">
+        <br>
+        <label for="name">Aadhaar Number</label>
+        <input type="text" name="name" placeholder="Aadhaar Number">
+        <h6>Aadhaar to verify identity of the user and also enable authentic document access</h6><br>
+        <label for="date">DOB</label>
+        <input type="date" id="birthday">
+        <br>
+        <hr>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        <br>
+        <button onclick="signup" class="btn">Sign Up</button>
+      </form>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="download.svg" alt="Card image cap">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="download.svg" alt="Card image cap">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="/js/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>></script>
+  <script id="bs-live-reload" data-sseport="49715" data-lastchange="1530375492177" src="/js/livereload.js"></script>
+</body>
+
+</html>
